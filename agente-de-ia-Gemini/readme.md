@@ -79,7 +79,7 @@ Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalh
 
 ### 👤 Autor
 
-**[SEU NOME AQUI]**
+**Anderson França**
 
-* GitHub: `[link para seu perfil]`
-* LinkedIn: `[link para seu perfil]`
+* GitHub: `https://github.com/andersonqxd`
+* LinkedIn: `https://www.linkedin.com/in/anderson-franca-rc/`
