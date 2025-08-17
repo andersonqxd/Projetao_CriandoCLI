@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agente de IA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Jarvs - Agente de IA</h1>
+    <div class="config">
+        <label for="apiKey">Digite sua Google API Key:</label>
+        <input type="password" id="apiKey" placeholder="GOOGLE_API_KEY">
+        <button id="salvarKey">Salvar Key</button>
+    </div>
+    <div class="chat">
+        <textarea id="pergunta" placeholder="Digite sua pergunta..."></textarea>
+        <div class="char-count"><span id="charCount">0</span> caracteres</div>
+        <button id="enviar">Enviar</button>
+        <button id="limpar">Limpar Chat</button>
+    </div>
+    <div id="historico"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
